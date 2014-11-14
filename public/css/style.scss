@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font-family: 'Poiret One', Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -9,6 +9,7 @@ a {
 
 .my-name {
   font-size: 3em;
+  font-family: 'Poiret One', Helvetica, sans-serif;
 
   hr {
     width: 50%;
@@ -20,13 +21,14 @@ a {
 
 .subtitle {
   font-size: 1.5em;
-  font-family: 'Raleway', sans-serif;
 }
 
 .info {
   margin-top: 1em;
   font-size: 1em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
+}
+
+.portfolio {
+  margin-top: 2em;
 }
 
