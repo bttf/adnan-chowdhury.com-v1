@@ -1,5 +1,5 @@
 var entries = [{
-  "title": "Chewbonga Blog",
+  "title": "<a href=\"http://chewbonga.com\"><i class=\"fa fa-link\"></i></a> Chewbonga Blog",
   "date": "Fall 2014",
   "points": ["Development blog created for purposes of keeping record, sharing findings and inviting criticism",
     "Built with Ember.js + Express + Node + MongoDB",

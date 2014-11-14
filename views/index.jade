@@ -13,14 +13,11 @@ block content
         .portfolio
           each entry in entries
             .row
-              .entry.col-xs-8.col-sm-8.col-md-8.col-lg-6
-                .title= entry.title + ' - ' + entry.date
+              .entry.col-xs-12
+                .title!= entry.title + ' - ' + entry.date
                 .info
                   ul.fa-ul
                     each point in entry.points
                       li!= point
                         i.fa-li.fa.fa-tree
-              .entry-photo.col-xs-4.col-sm-4.col-md-4.col-lg-6
-                a(href= entry.img)
-                  img(src= entry.img).img-responsive
 
