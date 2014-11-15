@@ -1,5 +1,6 @@
 var entries = [{
-  "title": "<a href=\"http://chewbonga.com\"><i class=\"fa fa-link\"></i></a> Chewbonga Blog",
+  "link": "http://chewbonga.com",
+  "title": "Chewbonga Blog",
   "date": "Fall 2014",
   "points": ["Development blog created for purposes of keeping record, sharing findings and inviting criticism",
     "Built with Ember.js + Express + Node + MongoDB",
@@ -15,6 +16,18 @@ var entries = [{
     "Fully-responsive with Bootstrap",
     "Built with Progressive Enhancement in mind to degrade gracefully."],
     "img": "/img/adnanChowdhurySite.png"
+}, {
+  "link": "https://www.facebook.com/thejollybengalifoodtruck",
+  "title": "The Jolly Bengali Food Truck",
+  "date": "Fall 2011 to Fall 2014",
+  "points": [
+    "Self-started mobile food vending business",
+    "Based on life-long aspiration to highlight Bengali culture, cuisine and art",
+    "Built over two years during nights & weekends",
+    "Served at events in Broward and Miami-Dade counties",
+    "Graphic design & Web presence self-made",
+    "Fully-responsive <a href='http://thejollybengalifoodtruck.com'>landing page</a> built with Bootstrap"
+  ]
 }];
 
 module.exports = {

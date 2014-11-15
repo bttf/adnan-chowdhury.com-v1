@@ -14,7 +14,10 @@ block content
           each entry in entries
             .row
               .entry.col-xs-12
-                .title!= entry.title + ' - ' + entry.date
+                if entry.link
+                  .title!= '<a href=\'' + entry.link + '\'><i class=\'fa fa-link\'></i></a> ' + entry.title + ' - ' + entry.date
+                else
+                  .title!= entry.title + ' - ' + entry.date
                 .info
                   ul.fa-ul
                     each point in entry.points
