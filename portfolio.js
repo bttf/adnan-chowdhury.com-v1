@@ -2,10 +2,11 @@ var entries = [{
   "link": "http://chewbonga.com",
   "title": "Chewbonga Blog",
   "date": "Fall 2014",
-  "points": ["Development blog created for purposes of keeping record, sharing findings and inviting criticism",
-    "Built with Ember.js + Express + Node + MongoDB",
+  "points": [
+    "Development blog created for purposes of keeping record, sharing findings and inviting criticism",
+    "Ember.js + Express + Node + MongoDB Stack",
     "Fully-responsive for mobile browsers by utilizing Bootstrap",
-    "Code available on GitHub: <a href='#'>1</a> <a href='#'>2</a>"],
+    "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>1</a> <a href='https://github.com/bttf/express-mongodb'>2</a>"],
     "img": "/img/chewbongaBlog.png"
 }, {
   "title": "This website",
