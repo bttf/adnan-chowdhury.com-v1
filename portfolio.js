@@ -1,3 +1,5 @@
+var intro = "Honesty and consistency over flair and cunning. The drummer over the guitarist. A strong work ethic for others to depend on. My strengths include accomplishing both small and daunting tasks equanimously. When working towards a vision, I can become very passionate in my work.";
+
 var entries = [{
   "link": "http://chewbonga.com",
   "title": "Chewbonga Blog",
@@ -76,6 +78,7 @@ var entries = [{
 }];
 
 module.exports = {
+  "intro": intro,
   "entries": entries.sort(function(a, b) {
     var y1 = parseInt(a.date.split(" ")[1]);
     var y2 = parseInt(b.date.split(" ")[1]);
