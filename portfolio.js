@@ -1,4 +1,4 @@
-var intro = "I am a human being. I like to create things according to a vision. I am constantly learning.";
+var intro = "I started tinkering with computers at an early age. Today I am building a career out of them. Music has been my favorite and most endearing hobby. Overall, I am a creative individual with an aim for the highest potential.";
 
 var entries = [{
   "link": "http://chewbonga.com",
@@ -81,6 +81,26 @@ var entries = [{
     "Created with Adobe Flash MX",
     "Officially released on Albinoblacksheep.com",
     "Reached wide audience"
+  ]
+}, {
+  "link": "http://adnanchowdhury.bandcamp.com/album/a-glass-of-chocolate-milk",
+  "title": "A Glass of Chocolate Milk",
+  "date": "Summer 2012",
+  "type": "music",
+  "points": [
+    "Full-instrumental album with former band 'Chocolate Milk'",
+    "Heavy blues and Blues-rock influence",
+    "Featuring blues improvisational features"
+  ]
+}, {
+  "link": "https://soundcloud.com/adnan_chowdhury",
+  "title": "Personal Soundcloud",
+  "date": "Fall 2011 to Present",
+  "type": "music",
+  "points": [
+    "Collection of single recordings and experimental bits",
+    "Recordings span over three years",
+    "A melange of genres"
   ]
 }];
 
