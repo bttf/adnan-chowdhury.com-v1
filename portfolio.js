@@ -9,7 +9,7 @@ var entries = [{
     "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>1</a> <a href='https://github.com/bttf/express-mongodb'>2</a>"],
     "img": "/img/chewbongaBlog.png"
 }, {
-  "title": "This website",
+  "title": "Adnan-Chowdhury.com",
   "date": "Fall 2014",
   "points": ["Basic landing page for professional inquires.",
     "Performance-conscious server-rendered webpage.",
@@ -28,6 +28,50 @@ var entries = [{
     "Served at events in Broward and Miami-Dade counties",
     "Graphic design & Web presence self-made",
     "Fully-responsive <a href='http://thejollybengalifoodtruck.com'>landing page</a> built with Bootstrap"
+  ]
+}, {
+  "link": "https://github.com/bttf/hot-pies",
+  "title": "Hot-Pies: A UFO Shoot-Em-Up Game",
+  "date" : "Fall 2013 to Summer 2014",
+  "points": [
+    "Written using HTML5 and JavaScript",
+    "Object-oriented design",
+    "Test-driven developed game; Tests written first",
+    "Over 180 unit tests",
+    "Original game art"
+  ]
+}, {
+  "link": "https://github.com/bttf/one_bullet",
+  "title": "One Bullet: Ludum Dare #28 Competition Entry",
+  "date": "Winter 2013",
+  "points": [
+    "HTML5/JS Game created within 48 hr for Ludum Dare competition",
+    "Rapid implementation using HTML5 and JavaScript",
+    "Object-oriented design",
+    "Original game art",
+    "Won 18th place in Humour category (out of 2063)"
+  ]
+}, {
+  "link": "http://adnanchowdhury.bandcamp.com/album/ladydog",
+  "title": "Ladydog",
+  "date": "Spring 2010 to Winter 2011",
+  "points": [
+    "Original musical album",
+    "Features several original written songs",
+    "Wide range of genres",
+    "Edited, mixed and mastered with open source tool Audacity",
+    "Experimented with various instrumentation and complex arrangements",
+    "Includes cover of Donkey Kong Country song 'Simian Segue'"
+  ]
+}, {
+  "link": "http://www.albinoblacksheep.com/flash/schfiftyfive",
+  "title": "Schfifty Five",
+  "date": "Spring 2003",
+  "points": [
+    "Flash music video with music by Gröûp X",
+    "Created with Adobe Flash MX",
+    "Officially released on Albinoblacksheep.com",
+    "Reached wide audience"
   ]
 }];
 
