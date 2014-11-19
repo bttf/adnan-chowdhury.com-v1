@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 3em;
   font-family: 'Raleway', sans-serif;
   background-color: #fffbfa; }
 
@@ -10,7 +10,7 @@ a {
   font-size: 3em;
   font-family: 'Poiret One', Helvetica, sans-serif; }
   .my-name hr {
-    width: 50%;
+    width: 75%;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0.1em; }
