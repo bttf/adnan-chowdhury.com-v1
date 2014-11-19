@@ -8,10 +8,12 @@ a {
   color: #00B7FF;
 }
 
-hr {
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 0.1em;
+.header {
+  hr {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0.1em;
+  }
 }
 
 .my-name {
@@ -42,5 +44,17 @@ hr {
 .my-creds {
   a {
     color: #000;
+  }
+}
+.portfolio-title {
+  text-align: right;
+  h3 {
+    margin: 0;
+  }
+  hr {
+    width: 50%;
+    margin-right: 0;
+    margin: 0 0 1em auto;
+
   }
 }

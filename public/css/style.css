@@ -6,7 +6,7 @@ body {
 a {
   color: #00B7FF; }
 
-hr {
+.header hr {
   margin-left: 0;
   margin-top: 0;
   margin-bottom: 0.1em; }
@@ -32,5 +32,14 @@ hr {
 
 .my-creds a {
   color: #000; }
+
+.portfolio-title {
+  text-align: right; }
+  .portfolio-title h3 {
+    margin: 0; }
+  .portfolio-title hr {
+    width: 50%;
+    margin-right: 0;
+    margin: 0 0 1em auto; }
 
 /*# sourceMappingURL=style.css.map */

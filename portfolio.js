@@ -1,9 +1,10 @@
-var intro = "Hard-working individual who thrives on vision. I like to see things get made the way they ought to be. Consequently, I work hard to get things made the way they ought to be.";
+var intro = "I am a human being. I like to create things according to a vision. I am constantly learning.";
 
 var entries = [{
   "link": "http://chewbonga.com",
   "title": "Chewbonga Blog",
   "date": "Fall 2014",
+  "type": "software",
   "points": [
     "Development blog created for purposes of keeping record, sharing findings and inviting criticism",
     "Ember.js + Express + Node + MongoDB Stack",
@@ -13,6 +14,7 @@ var entries = [{
 }, {
   "title": "Adnan-Chowdhury.com",
   "date": "Fall 2014",
+  "type": "software",
   "points": ["Basic landing page for professional inquires.",
     "Performance-conscious server-rendered webpage.",
     "Implemented with Express + Node",
@@ -23,6 +25,7 @@ var entries = [{
   "link": "https://www.facebook.com/thejollybengalifoodtruck",
   "title": "The Jolly Bengali Food Truck",
   "date": "Fall 2011 to Fall 2014",
+  "type": "other",
   "points": [
     "Self-started mobile food vending business",
     "Based on life-long aspiration to highlight Bengali culture, cuisine and art",
@@ -35,6 +38,7 @@ var entries = [{
   "link": "https://github.com/bttf/hot-pies",
   "title": "Hot-Pies: A UFO Shoot-Em-Up Game",
   "date" : "Fall 2013 to Summer 2014",
+  "type": "software",
   "points": [
     "Written using HTML5 and JavaScript",
     "Object-oriented design",
@@ -46,6 +50,7 @@ var entries = [{
   "link": "https://github.com/bttf/one_bullet",
   "title": "One Bullet: Ludum Dare #28 Competition Entry",
   "date": "Winter 2013",
+  "type": "software",
   "points": [
     "HTML5/JS Game created within 48 hr for Ludum Dare competition",
     "Rapid implementation using HTML5 and JavaScript",
@@ -57,6 +62,7 @@ var entries = [{
   "link": "http://adnanchowdhury.bandcamp.com/album/ladydog",
   "title": "Ladydog",
   "date": "Spring 2010 to Winter 2011",
+  "type": "music",
   "points": [
     "Original musical album",
     "Features several original written songs",
@@ -69,6 +75,7 @@ var entries = [{
   "link": "http://www.albinoblacksheep.com/flash/schfiftyfive",
   "title": "Schfifty Five",
   "date": "Spring 2003",
+  "type": "other",
   "points": [
     "Flash music video with music by Gröûp X",
     "Created with Adobe Flash MX",
@@ -77,11 +84,28 @@ var entries = [{
   ]
 }];
 
-module.exports = {
-  "intro": intro,
-  "entries": entries.sort(function(a, b) {
+function sortEntries(a, b) {
     var y1 = parseInt(a.date.split(" ")[1]);
     var y2 = parseInt(b.date.split(" ")[1]);
     return y2 - y1;
-  })
+}
+
+function softwareOnly(entry) {
+  return entry.type === 'software';
+}
+
+function musicOnly(entry) {
+  return entry.type === 'music';
+}
+
+function otherOnly(entry) {
+  return entry.type === 'other';
+}
+
+module.exports = {
+  "intro": intro,
+  "entries": entries.sort(sortEntries),
+  "software_entries": entries.filter(softwareOnly).sort(sortEntries),
+  "music_entries": entries.filter(musicOnly).sort(sortEntries),
+  "other_entries": entries.filter(otherOnly).sort(sortEntries)
 };

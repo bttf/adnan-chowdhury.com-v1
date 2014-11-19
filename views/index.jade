@@ -3,7 +3,7 @@ extends layout
 block content
   .container
     .row
-      .col-xs-12.col-sm-8.col-md-8.col-lg-6
+      .header.col-xs-12.col-sm-8.col-md-8.col-lg-6
         .my-name Adnan Chowdhury
         hr
         .my-creds
@@ -24,7 +24,11 @@ block content
       .col-xs-12.col-sm-8.col-md-8.col-lg-6
         p.info= intro
         .portfolio
-          each entry in entries
+          .row
+            .portfolio-title.col-xs-12.text-right
+              h3 Software Projects
+              hr
+          each entry in software_entries
             .row
               .entry.col-xs-12
                 if entry.link
@@ -36,4 +40,38 @@ block content
                     each point in entry.points
                       li!= point
                         i.fa-li.fa.fa-angle-double-right
+          .row
+            .portfolio-title.col-xs-12.text-right
+              h3 Music Projects
+              hr
+          each entry in music_entries
+            .row
+              .entry.col-xs-12
+                if entry.link
+                  .title!= '<a href=\'' + entry.link + '\'><i class=\'fa fa-link\'></i></a> ' + entry.title + ' - ' + entry.date
+                else
+                  .title!= entry.title + ' - ' + entry.date
+                .info
+                  ul.fa-ul
+                    each point in entry.points
+                      li!= point
+                        i.fa-li.fa.fa-angle-double-right
+          .row
+            .portfolio-title.col-xs-12.text-right
+              h3 Other Projects
+              hr
+          each entry in other_entries
+            .row
+              .entry.col-xs-12
+                if entry.link
+                  .title!= '<a href=\'' + entry.link + '\'><i class=\'fa fa-link\'></i></a> ' + entry.title + ' - ' + entry.date
+                else
+                  .title!= entry.title + ' - ' + entry.date
+                .info
+                  ul.fa-ul
+                    each point in entry.points
+                      li!= point
+                        i.fa-li.fa.fa-angle-double-right
+
+
 
