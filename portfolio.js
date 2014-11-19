@@ -1,4 +1,4 @@
-var intro = "Honesty and consistency over flair and cunning. The drummer over the guitarist. A strong work ethic for others to depend on. My strengths include accomplishing both small and daunting tasks equanimously. When working towards a vision, I can become very passionate in my work.";
+var intro = "Hard-working individual who thrives on vision. I like to see things get made the way they ought to be. Consequently, I work hard to get things made the way they ought to be.";
 
 var entries = [{
   "link": "http://chewbonga.com",
