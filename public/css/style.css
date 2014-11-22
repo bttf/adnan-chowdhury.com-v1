@@ -20,12 +20,16 @@ a {
 
 .info {
   font-size: 1em; }
+  .info ul li a {
+    color: #5bc0de; }
 
 .portfolio {
   margin-top: 1.5em; }
 
 .entry, .entry-photo {
   margin-bottom: 1.5em; }
+  .entry a, .entry-photo a {
+    color: #000; }
 
 .title {
   font-size: 1.5em; }

@@ -1,17 +1,19 @@
 var intro = "I started tinkering with computers at an early age. Today I am building a career out of them. Music has been my favorite and most endearing hobby. Overall, I am a creative individual with an aim for the highest potential.";
 
 var entries = [{
-  "link": "http://chewbonga.com",
+  "link": "http://blog.chewbonga.com",
   "title": "Chewbonga Blog",
   "date": "Fall 2014",
   "type": "software",
   "points": [
-    "Development blog created for purposes of keeping record, sharing findings and inviting criticism",
-    "Ember.js + Express + Node + MongoDB Stack",
+    "Development blog",
+    "Created for purposes of keeping record, sharing findings and inviting criticism",
+    "Full-Stack JavaScript: Ember.js + Express + Node + MongoDB Stack",
     "Fully-responsive for mobile browsers by utilizing Bootstrap",
-    "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>1</a> <a href='https://github.com/bttf/express-mongodb'>2</a>"],
+    "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>[1]</a> <a href='https://github.com/bttf/express-mongodb'>[2]</a>"],
     "img": "/img/chewbongaBlog.png"
 }, {
+  "link": "#",
   "title": "Adnan-Chowdhury.com",
   "date": "Fall 2014",
   "type": "software",
