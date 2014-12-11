@@ -8,8 +8,8 @@ var entries = [{
   "points": [
     "Development blog",
     "Created for purposes of keeping record, sharing findings and inviting criticism",
-    "Full-Stack JavaScript: Ember.js + Express + Node + MongoDB Stack",
-    "Fully-responsive for mobile browsers by utilizing Bootstrap",
+    "Full-Stack JavaScript: Ember.js + Express + Node + MongoDB",
+    "Utilizes Boostrap to be fully-responsive for mobile browsers",
     "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>[1]</a> <a href='https://github.com/bttf/express-mongodb'>[2]</a>"],
     "img": "/img/chewbongaBlog.png"
 }, {
@@ -31,9 +31,9 @@ var entries = [{
   "points": [
     "Self-started mobile food vending business",
     "Based on life-long aspiration to highlight Bengali culture, cuisine and art",
-    "Built over two years during nights & weekends",
+    "Built during nights & weekends over two years",
     "Served at events in Broward and Miami-Dade counties",
-    "Graphic design & Web presence self-made",
+    "Self-made graphic design & web presence",
     "Fully-responsive <a href='http://thejollybengalifoodtruck.com'>landing page</a> built with Bootstrap"
   ]
 }, {
@@ -82,7 +82,7 @@ var entries = [{
     "Flash music video with music by Gröûp X",
     "Created with Adobe Flash MX",
     "Officially released on Albinoblacksheep.com",
-    "Reached wide audience"
+    "Reached a wide audience"
   ]
 }, {
   "link": "http://adnanchowdhury.bandcamp.com/album/a-glass-of-chocolate-milk",
@@ -92,7 +92,7 @@ var entries = [{
   "points": [
     "Full-instrumental album with former band 'Chocolate Milk'",
     "Heavy blues and Blues-rock influence",
-    "Featuring blues improvisational features"
+    "Featues improvistational blues segments"
   ]
 }, {
   "link": "https://soundcloud.com/adnan_chowdhury",
