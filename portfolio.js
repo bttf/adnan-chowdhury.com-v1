@@ -6,10 +6,10 @@ var entries = [{
   "date": "Fall 2014",
   "type": "software",
   "points": [
-    "Development blog",
+    "Personal Development blog",
     "Created for purposes of keeping record, sharing findings and inviting criticism",
     "Full-Stack JavaScript: Ember.js + Express + Node + MongoDB",
-    "Utilizes Boostrap to be fully-responsive for mobile browsers",
+    "Boostrap utilized for mobile-friendly responsiveness",
     "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>[1]</a> <a href='https://github.com/bttf/express-mongodb'>[2]</a>"],
     "img": "/img/chewbongaBlog.png"
 }, {
@@ -24,6 +24,16 @@ var entries = [{
     "Built with Progressive Enhancement in mind to degrade gracefully."],
     "img": "/img/adnanChowdhurySite.png"
 }, {
+  "link": "http://thejollybengalifoodtruck.com",
+  "title": "The Jolly Bengali Food Truck Landing Page",
+  "date": "Summer 2014",
+  "type": "software",
+  "points": [
+    "Static landing page for The Jolly Bengali Food Truck business",
+    "Bootstrap and Font-Awesome utilzed for mobile-friendly responsiveness and cutting-edge design.",
+    "Management of Social Media outlets including Twitter, Instagram, Facebook and Mailing List"
+  ]
+}, {
   "link": "https://www.facebook.com/thejollybengalifoodtruck",
   "title": "The Jolly Bengali Food Truck",
   "date": "Fall 2011 to Fall 2014",
@@ -32,9 +42,7 @@ var entries = [{
     "Self-started mobile food vending business",
     "Based on life-long aspiration to highlight Bengali culture, cuisine and art",
     "Built during nights & weekends over two years",
-    "Served at events in Broward and Miami-Dade counties",
-    "Self-made graphic design & web presence",
-    "Fully-responsive <a href='http://thejollybengalifoodtruck.com'>landing page</a> built with Bootstrap"
+    "Served at events in Broward and Miami-Dade counties"
   ]
 }, {
   "link": "https://github.com/bttf/hot-pies",
