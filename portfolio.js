@@ -1,6 +1,17 @@
 var intro = "I started tinkering with computers at an early age. Today I am building a career out of them. Music has been my favorite and most endearing hobby. Overall, I am a creative individual with an aim for the highest potential.";
 
 var entries = [{
+  "link": "http://ss15-sitcomdadas.divshot.io",
+  "title": "CYOCYOA - Static Showdown Hackathon App",
+  "date": "Winter 2015",
+  "type": "software",
+  "points": [
+    "Web Application Entry for Divshot's Static Showdown Hackathon",
+    "Implemented with Ember.js",
+    "Backend provided by Firebase",
+    "Code available on GitHub: <a href='https://github.com/bttf/CYOCYOA'>[1]</a>"
+  ]
+}, {
   "link": "http://blog.chewbonga.com",
   "title": "Chewbonga Blog",
   "date": "Fall 2014",
@@ -25,7 +36,7 @@ var entries = [{
     "img": "/img/adnanChowdhurySite.png"
 }, {
   "link": "http://thejollybengalifoodtruck.com",
-  "title": "The Jolly Bengali Food Truck Landing Page",
+  "title": "The Jolly Bengali Food Truck",
   "date": "Summer 2014",
   "type": "software",
   "points": [
