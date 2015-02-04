@@ -1,6 +1,20 @@
 var intro = "I started tinkering with computers at an early age. Today I am building a career out of them. Music has been my favorite and most endearing hobby. Overall, I am a creative individual with an aim for the highest potential.";
 
 var entries = [{
+  "link": "http://screenwritr.io",
+  "title": "Screenwritr.io - Write Screenplays in your Browser",
+  "date": "Fall 2014 - Present",
+  "type": "software",
+  "points": [
+    "Screenwriting web-app to produce properly formatted scripts",
+    "Ember.js Client-Side Web App, MVC/MV* Architecture",
+    "Firebase Backend API",
+    "User Authentication via Facebook, Twitter Social APIs",
+    "Twitter Bootstrap, Responsive-Design, Mobile-Friendly",
+    "SASS CSS3 Preprocessing & JavaScript/CSS3 animations",
+    "Code available on GitHub: <a href='https://github.com/bttf/CYOCYOA'>[1]</a>"
+  ]
+}, {
   "link": "http://ss15-sitcomdadas.divshot.io",
   "title": "CYOCYOA - Static Showdown Hackathon App",
   "date": "Winter 2015",
@@ -126,9 +140,25 @@ var entries = [{
 }];
 
 function sortEntries(a, b) {
-    var y1 = parseInt(a.date.split(" ")[1]);
-    var y2 = parseInt(b.date.split(" ")[1]);
-    return y2 - y1;
+  var aDate = a.date.split(" ");
+  var bDate = b.date.split(" ");
+
+  // var y1 = parseInt(aDate[1]);
+  // var y2 = parseInt(bDate[1]);
+
+  if (aDate[aDate.length-1] === 'Present') {
+    y1 = (new Date()).getFullYear();
+  } else {
+    y1 = parseInt(aDate[aDate.length-1]);
+  }
+
+  if (bDate[bDate.length-1] === 'Present') {
+    y2 = (new Date()).getFullYear();
+  } else {
+    y2 = parseInt(bDate[bDate.length-1]);
+  }
+
+  return y2 - y1;
 }
 
 function softwareOnly(entry) {
