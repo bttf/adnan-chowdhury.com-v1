@@ -20,33 +20,40 @@ var entries = [{
   "date": "Winter 2015",
   "type": "software",
   "points": [
-    "Web Application Entry for Divshot's Static Showdown Hackathon",
-    "Implemented with Ember.js",
-    "Backend provided by Firebase",
+    "Contest Entry for Divshot's Static Showdown Hackathon",
+    "Ember.js Client-Side App, MVC/MV* Architecture",
+    "Firebase Backend API",
+    "User Authentication via Facebook, GitHub Social APIs",
+    "SASS CSS3 Preprocessing",
     "Code available on GitHub: <a href='https://github.com/bttf/CYOCYOA'>[1]</a>"
   ]
 }, {
   "link": "http://blog.chewbonga.com",
-  "title": "Chewbonga Blog",
+  "title": "Development Blog",
   "date": "Fall 2014",
   "type": "software",
   "points": [
-    "Personal Development blog",
-    "Created for purposes of keeping record, sharing findings and inviting criticism",
-    "Full-Stack JavaScript: Ember.js + Express + Node + MongoDB",
-    "Boostrap utilized for mobile-friendly responsiveness",
+    "Personal development blog for keeping record, sharing findings",
+    "Ember.js Client-Side App, MVC/MV* Architecture",
+    "Node.js + Express Backend API",
+    "MongoDB Data Layer",
+    "jQuery, Bootstrap, Font-Awesome for Mobile-First, Responsive design",
     "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>[1]</a> <a href='https://github.com/bttf/express-mongodb'>[2]</a>"],
     "img": "/img/chewbongaBlog.png"
 }, {
-  "link": "#",
+  "link": "/",
   "title": "Adnan-Chowdhury.com",
   "date": "Fall 2014",
   "type": "software",
-  "points": ["Basic landing page for professional inquires.",
-    "Performance-conscious server-rendered webpage.",
-    "Implemented with Express + Node",
-    "Fully-responsive with Bootstrap",
-    "Built with Progressive Enhancement in mind to degrade gracefully."],
+  "points": [
+    "Landing page for professional inquires",
+    "Node.js + Express, Server-rendered web page",
+    "Twitter Bootstrap Responsive Design",
+    "Jade Templating Language",
+    "SASS CSS3 Preprocessing; Font-Awesome icons",
+    "Built with Progressive Enhancement in mind",
+    "Code available on GitHub: <a href='https://github.com/bttf/adnan-chowdhury.com'>[1]</a>"
+  ],
     "img": "/img/adnanChowdhurySite.png"
 }, {
   "link": "http://thejollybengalifoodtruck.com",
@@ -54,9 +61,9 @@ var entries = [{
   "date": "Summer 2014",
   "type": "software",
   "points": [
-    "Static landing page for The Jolly Bengali Food Truck business",
-    "Bootstrap and Font-Awesome utilzed for mobile-friendly responsiveness and cutting-edge design.",
-    "Management of Social Media outlets including Twitter, Instagram, Facebook and Mailing List"
+    "Landing page for local business \"The Jolly Bengali Food Truck\"",
+    "Mobile-First, Responsive Design with Twitter Bootstrap, Font-Awesome",
+    "Social Media mgmt. including Twitter, Instagram, Facebook and MailChimp Mailing List"
   ]
 }, {
   "link": "https://www.facebook.com/thejollybengalifoodtruck",
@@ -75,11 +82,12 @@ var entries = [{
   "date" : "Fall 2013 to Summer 2014",
   "type": "software",
   "points": [
-    "Written using HTML5 and JavaScript",
-    "Object-oriented design",
-    "Test-driven developed game; Tests written first",
-    "Over 180 unit tests",
-    "Original game art"
+    "In-Browser Video Game",
+    "Extensive HTML5 + JavaScript",
+    "Node.js + Express Server Architecture",
+    "Jasmine Unit testing, TDD",
+    "Original GIMP-created game art",
+    "Code available on GitHub: <a href='https://github.com/bttf/hot-pies'>[1]</a>"
   ]
 }, {
   "link": "https://github.com/bttf/one_bullet",
@@ -87,11 +95,10 @@ var entries = [{
   "date": "Winter 2013",
   "type": "software",
   "points": [
-    "HTML5/JS Game created within 48 hr for Ludum Dare competition",
-    "Rapid implementation using HTML5 and JavaScript",
-    "Object-oriented design",
-    "Original game art",
-    "Won 18th place in Humour category (out of 2063)"
+    "Game created within 48 hr for Ludum Dare #28 competition",
+    "Won 18th place in Humour category (out of 2063)",
+    "HTML5 and JavaScript Game Architecture",
+    "GIMP, Original game art"
   ]
 }, {
   "link": "http://adnanchowdhury.bandcamp.com/album/ladydog",
