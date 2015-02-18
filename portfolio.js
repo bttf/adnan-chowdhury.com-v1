@@ -12,7 +12,7 @@ var entries = [{
     "User Authentication via Facebook, Twitter Social APIs",
     "Twitter Bootstrap, Responsive-Design, Mobile-Friendly",
     "SASS CSS3 Preprocessing & JavaScript/CSS3 animations",
-    "Code available on GitHub: <a href='https://github.com/bttf/CYOCYOA'>[1]</a>"
+    "Code available on GitHub: <a href='https://github.com/bttf/screenwritr'>[1]</a>"
   ]
 }, {
   "link": "http://ss15-sitcomdadas.divshot.io",
