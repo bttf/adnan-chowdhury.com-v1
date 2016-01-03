@@ -1,7 +1,7 @@
 var intro = "I started tinkering with computers at an early age. Today I am building a career out of them. Music has been my favorite and most endearing hobby. Overall, I am a creative individual with an aim for the highest potential.";
 
 var entries = [{
-  "link": "http://screenwritr.io",
+  "link": "http://screenwritr.88mph.io",
   "title": "Screenwritr.io - Write Screenplays in your Browser",
   "date": "Fall 2014 - Present",
   "type": "software",
