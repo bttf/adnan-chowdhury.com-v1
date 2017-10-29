@@ -1,45 +1,42 @@
 var intro = "I started tinkering with computers at an early age. Today I am building a career out of them. Music has been my favorite and most endearing hobby. Overall, I am a creative individual with an aim for the highest potential.";
 
 var entries = [{
+  link: 'https://app.quartzy.com/register',
+  title: 'Quartzy - lab management platform',
+  date: 'Summer 2016 - Fall 2017',
+  type: 'software',
+  points: [
+    'Ember.js Web-app w/ PHP7/Laravel Backend',
+    'Large scale app used by thousands of scientists',
+  ],
+}, {
+  link: 'https://slushi.es',
+  title: 'Slushi.es - a bookmark manager',
+  date: 'Fall 2016 - Present',
+  type: 'software',
+  points: [
+    'Ember.js + Express/Node.js + PostgreSQL',
+    'Social bookmarking app w/ emphasis on privacy and minimalism',
+  ],
+}, {
+  link: 'https://scribble.today',
+  title: 'Scribble.today - a personal journal in an inspiring setting',
+  date: 'Summer 2016 - Present',
+  type: 'software',
+  points: [
+    'Ember.js + Express/Node.js + PostgreSQL',
+    'Presents sleek UI in conjunction with randomly selected impressionist paintings',
+  ],
+}, {
   "link": "http://screenwritr.88mph.io",
   "title": "Screenwritr.io - Write Screenplays in your Browser",
-  "date": "Fall 2014 - Present",
-  "type": "software",
-  "points": [
-    "Screenwriting web-app to produce properly formatted scripts",
-    "Ember.js Client-Side Web App, MVC/MV* Architecture",
-    "Firebase Backend API",
-    "User Authentication via Facebook, Twitter Social APIs",
-    "Twitter Bootstrap, Responsive-Design, Mobile-Friendly",
-    "SASS CSS3 Preprocessing & JavaScript/CSS3 animations",
-    "Code available on GitHub: <a href='https://github.com/bttf/screenwritr'>[1]</a>"
-  ]
-}, {
-  "link": "http://ss15-sitcomdadas.divshot.io",
-  "title": "CYOCYOA - Static Showdown Hackathon App",
-  "date": "Winter 2015",
-  "type": "software",
-  "points": [
-    "Contest Entry for Divshot's Static Showdown Hackathon",
-    "Ember.js Client-Side App, MVC/MV* Architecture",
-    "Firebase Backend API",
-    "User Authentication via Facebook, GitHub Social APIs",
-    "SASS CSS3 Preprocessing",
-    "Code available on GitHub: <a href='https://github.com/bttf/CYOCYOA'>[1]</a>"
-  ]
-}, {
-  "link": "http://blog.chewbonga.com",
-  "title": "Development Blog",
   "date": "Fall 2014",
   "type": "software",
   "points": [
-    "Personal development blog for keeping record, sharing findings",
-    "Ember.js Client-Side App, MVC/MV* Architecture",
-    "Node.js + Express Backend API",
-    "MongoDB Data Layer",
-    "jQuery, Bootstrap, Font-Awesome for Mobile-First, Responsive design",
-    "Code available on GitHub: <a href='https://github.com/bttf/ember-blog'>[1]</a> <a href='https://github.com/bttf/express-mongodb'>[2]</a>"],
-    "img": "/img/chewbongaBlog.png"
+    "Screenwriting web-app to produce properly formatted scripts",
+    "Ember.js + Firebase",
+    "Code available on GitHub: <a href='https://github.com/bttf/screenwritr'>[1]</a>"
+  ]
 }, {
   "link": "/",
   "title": "Adnan-Chowdhury.com",
@@ -48,23 +45,10 @@ var entries = [{
   "points": [
     "Landing page for professional inquires",
     "Node.js + Express, Server-rendered web page",
-    "Twitter Bootstrap Responsive Design",
-    "Jade Templating Language",
-    "SASS CSS3 Preprocessing; Font-Awesome icons",
     "Built with Progressive Enhancement in mind",
     "Code available on GitHub: <a href='https://github.com/bttf/adnan-chowdhury.com'>[1]</a>"
   ],
     "img": "/img/adnanChowdhurySite.png"
-}, {
-  "link": "http://thejollybengalifoodtruck.com",
-  "title": "The Jolly Bengali Food Truck",
-  "date": "Summer 2014",
-  "type": "software",
-  "points": [
-    "Landing page for local business \"The Jolly Bengali Food Truck\"",
-    "Mobile-First, Responsive Design with Twitter Bootstrap, Font-Awesome",
-    "Social Media mgmt. including Twitter, Instagram, Facebook and MailChimp Mailing List"
-  ]
 }, {
   "link": "https://www.facebook.com/thejollybengalifoodtruck",
   "title": "The Jolly Bengali Food Truck",
@@ -78,12 +62,11 @@ var entries = [{
   ]
 }, {
   "link": "https://github.com/bttf/hot-pies",
-  "title": "Hot-Pies: A UFO Shoot-Em-Up Game",
+  "title": "HTML5 Game: \"Hot-Pies: A UFO Shoot-Em-Up Game\"",
   "date" : "Fall 2013 to Summer 2014",
   "type": "software",
   "points": [
-    "In-Browser Video Game",
-    "Extensive HTML5 + JavaScript",
+    "In-Browser Video Game bult with HTML5 + JavaScript",
     "Node.js + Express Server Architecture",
     "Jasmine Unit testing, TDD",
     "Original GIMP-created game art",
