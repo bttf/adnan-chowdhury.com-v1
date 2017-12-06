@@ -117,16 +117,6 @@ var entries = [{
     "Heavy blues and Blues-rock influence",
     "Featues improvistational blues segments"
   ]
-}, {
-  "link": "https://soundcloud.com/adnan_chowdhury",
-  "title": "Personal Soundcloud",
-  "date": "Fall 2011 to Present",
-  "type": "music",
-  "points": [
-    "Collection of single recordings and experimental bits",
-    "Recordings span over three years",
-    "A melange of genres"
-  ]
 }];
 
 function sortEntries(a, b) {
